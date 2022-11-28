@@ -1,0 +1,13 @@
+header {
+  background-color: #001529;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.logo a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 10px;
+  text-decoration: none;
+}

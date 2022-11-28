@@ -1,0 +1,9 @@
+.cover img {
+  transition: all 250ms ease-in-out;
+}
+
+.cover img:hover {
+  transform: scale(1.5);
+  position: relative;
+  z-index: 100;
+}
