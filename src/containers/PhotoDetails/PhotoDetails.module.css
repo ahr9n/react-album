@@ -1,0 +1,23 @@
+.info {
+  text-align: center;
+  margin: 100px;
+}
+
+.info img {
+  max-width: 800px;
+  max-height: 800px;
+  margin-bottom: 20px;
+  width: auto;
+  height: auto;
+}
+
+.info p {
+  font-size: 1.2rem;
+}
+
+.not-found {
+  color: red;
+  font-size: 2rem;
+  text-align: center;
+  margin: 100px;
+}
