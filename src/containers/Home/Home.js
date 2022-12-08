@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Photo from "../components/Photo";
+import Photo from "../../components/Photo/Photo";
 import classes from "./Home.module.css";
 
 const Home = () => {
@@ -23,11 +23,12 @@ const Home = () => {
           src,
         };
       });
-      setImages(images.concat(newImages));
+      setImages((prev) => [...prev, ...newImages]);
     };
     loadMoreImages().catch((error) => console.log(error));
   }, [page]);
-  const loadMoreHandler = () => setPage(page + 1);
+
+  const loadMoreHandler = () => setPage((prev) => prev + 1);
 
   return (
     <section>
