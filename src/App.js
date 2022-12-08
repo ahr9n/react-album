@@ -1,10 +1,10 @@
 import React, { Fragment } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 
-import Header from "./components/Header";
+import Header from "./components/Header/Header";
 
-import Home from "./containers/Home";
-import PhotoDetails from "./containers/PhotoDetails";
+import Home from "./containers/Home/Home";
+import PhotoDetails from "./containers/PhotoDetails/PhotoDetails";
 
 const App = () => {
   return (

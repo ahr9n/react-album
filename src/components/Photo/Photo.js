@@ -18,7 +18,7 @@ const MasonryCard = ({ data: { id, src } }) => {
   return (
     <div className={classes["cover"]} key={id}>
       <Link to={`/photos/${id}`}>
-        <img src={src} />
+        <img src={src} alt="Fetched from Picsum.photos API" />
       </Link>
     </div>
   );
